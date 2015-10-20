@@ -1,0 +1,16 @@
+@import 'components/color';
+
+// Materialize Variables
+$primary-color: color("light-green", "base") !default;
+$primary-color-light: lighten($primary-color, 15%) !default;
+$primary-color-dark: darken($primary-color, 15%) !default;
+
+$secondary-color: color("deep-purple", "accent-2") !default;
+
+@import 'components/variables';
+@import 'materialize';
+@import 'ember-cli-materialize';
+
+.resource-body {
+	margin: 64px;
+}

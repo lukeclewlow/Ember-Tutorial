@@ -1,5 +1,6 @@
-{{#each model as |todo|}}
-	<div data-test-id="todo-card">{{todo.title}}</div>
-{{/each}}
-
+<div class="resource-body">
+	{{#each model as |todo|}}
+		<div class="card" data-test-id="todo-card">{{todo.title}}</div>
+	{{/each}}
+</div>
 {{outlet}}
